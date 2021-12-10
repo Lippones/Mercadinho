@@ -3,7 +3,7 @@
 </h1>
 
 
-<h1 align="center">
+<h1 background="#fefefe">
     <img src="https://github.com/Lippones/Mercadinho/blob/main/logoazul.png">
 </h1>
 
