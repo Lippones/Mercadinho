@@ -4,7 +4,7 @@
 
 
 <h1 align="center">
-    <img src="">
+    <img src="https://github.com/Lippones/Mercadinho/blob/main/logoazul.png">
 </h1>
 
 # Mercadinho
