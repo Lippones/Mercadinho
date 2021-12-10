@@ -2,7 +2,7 @@
     <h1>
         <p>Mercadinho</p>
     </h1>
-    <h1 backgruound="#fbc248">
+    <h1 background: #fbc248>
         <img src="https://github.com/Lippones/Mercadinho/blob/main/logoazul.png">
     </h1>
    </div>
