@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato -Mercadinho</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="logo" ><img class="img-logo" src="./logoazul.png" alt="logo"></h1>
+            <nav>
+                <ul class="navegacao">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./produtos.html">Produtos</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="contato">
+        <form>
+            <label for="nome">Nome e sobrenome</label>
+            <input type="text" id="nome" class="input-txt" required placeholder="Filipe Vieira">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-txt" required placeholder="email@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-txt" required placeholder="(33) XXXXXX-XXXX">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" cols="70" rows="10" class="input-txt" required placeholder="Digite o motivo do contato"></textarea>
+
+            <fieldset>
+                <legend>Forma de contato</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="radio-email" id="radio-email" checked> Email</label>
+                  
+                <label for="radio-telefone"><input type="radio" name="contato" value="radio-whatsapp" id="radio-telefone"> Telefone</label>
+                   
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp" id="radio-whatsapp"> Whatsapp</label> 
+            </fieldset>
+            <legend>Escola o horário de atendimento</legend>
+            <fieldset>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <label>
+                <input class="checkbox" type="checkbox" checked> Gostaria de receber notificações por email?
+            </label>
+
+            <input class="btn-submit" type="submit" name="contato" value="Enviar formulário" id="enviar">
+
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Terça</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td>8h - 18h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <img src="./logoazul.png" alt="rodapé">
+        <p class="copyright">
+            &copy; Copyright Mercadinho - 2021
+        </p>
+    </footer>
+</body>
+</html>
