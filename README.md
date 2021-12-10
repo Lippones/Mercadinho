@@ -1,4 +1,4 @@
-<h1 align="center" font-size="25px">
+<h1 align="center" font-size="45px">
     <p>Mercadinho</p>
 </h1>
 
