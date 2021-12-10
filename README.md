@@ -1,8 +1,8 @@
-   <div>
-    <h1 align="center">
+   <div align="center">
+    <h1>
         <p>Mercadinho</p>
     </h1>
-    <h1 align="center">
+    <h1 backgruound="#fbc248>
         <img src="https://github.com/Lippones/Mercadinho/blob/main/logoazul.png">
     </h1>
    </div>
